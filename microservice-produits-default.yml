@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/mcommerce
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: ''
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+server:
+  port: '9001'
+mes-configs:
+  limitDeProduits: '4'
